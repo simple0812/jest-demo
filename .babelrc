@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "env",
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    "dva-hmr",
+    "add-module-exports",
+    "transform-runtime",
+    [
+      "import", [
+        {
+          "libraryName": "antd",
+          "style": true
+        }
+      ]
+    ]
+  ]
+}

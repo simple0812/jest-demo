@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  ICH-Steward-Web:
+    image: ich_steward_web
+    build:
+        context: ./dist
+        dockerfile: Dockerfile

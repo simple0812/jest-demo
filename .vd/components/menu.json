@@ -1,0 +1,33 @@
+{
+  "name": "Menu",
+  "description": "菜单",
+  "version": "1.0.0",
+  "compatibility": {
+    "chrome": "latest",
+    "firefox": "latest",
+    "safari": "latest",
+    "ie": "9+"
+  },
+  "module": [
+    "style",
+    "images"
+  ],
+  "format": "class",
+  "lifecycleMountingOptions": [
+    "constructor",
+    "render"
+  ],
+  "isPropCheck": true,
+  "lifecycle": [
+    "constructor",
+    "render"
+  ],
+  "author": "张雷",
+  "saga": {
+    "url": "/api/v1/getApps",
+    "requestVarName": "getApps",
+    "method": "get"
+  },
+  "type": 1,
+  "camelCaseName": "menu"
+}

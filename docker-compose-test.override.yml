@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  ICH-Steward-Web-Test:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Test
+    ports:
+      - "10000:10000"

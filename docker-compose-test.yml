@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  ICH-Steward-Web-Test:
+    image: ich-steward-web-test
+    build:
+        context: ./dist
+        dockerfile: Dockerfile
